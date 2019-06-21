@@ -1,0 +1,70 @@
+/*
+ * 首页基本样式
+ */
+.ssep-menu{background-color: #F1F4F8;}
+.ssep-menu .menu-size{border-bottom: 1px solid #F1F4F8;}
+.ssep-menu .el-menu{border-width: 0;}
+.ssep-menu .el-submenu .el-menu-item{height: 40px; line-height: 40px;}
+.ssep-menu .el-submenu .material-icons{font-size: 18px; color: #9BAFBE; margin-right: 5px;}
+.ssep-menu .el-submenu span{color: #9BAFBE;}
+.ssep-menu .el-submenu__title{height: 40px; line-height: 40px; color: #666; background-color: #F1F4F8;}
+.ssep-menu .el-submenu__title:hover{background-color: #F1F4F8;}
+.ssep-menu .el-submenu__title:hover span{color: #2d373c;}
+
+.ssep-wapper{padding: 0;}
+.ssep-wapper .ssep-content{height: 30px; position: absolute; top: 0; left: 0; right: 0; padding-left: 10px;}
+.ssep-wapper .ssep-content .el-breadcrumb{position: absolute; top: 50%; margin-top: -7px;}
+.ssep-wapper .ssep-body{height: 100%;}
+
+.header-item{float: left;}
+
+.ssep-header{position: relative; background-color: #F1F4F8; border-bottom: 1px solid #F1F4F8;}
+.ssep-header .ssep-header-logo{margin-top: 11px;}
+.ssep-header .ssep-header-org{font-size: 26px; color: #2d373c; font-weight: 600; margin-left: 10px; margin-top: 12.5px;}
+.ssep-header .ssep-header-site{margin-top: 23px; margin-left: 10px;}
+.ssep-header .ssep-header-site .material-icons{font-size: 16px; color: #9bafbe;}
+.ssep-header .ssep-header-site .site-name{font-size: 13px; color: #666; margin-left: 5px;}
+
+.menu-btn{width: 30px; display: block; font-size: 0; padding: 8px;}
+.menu-btn .material-icons{font-size: 14px; color: #41aaaa;}
+
+/**
+ * 页面主体布局样式
+ */
+.layout-main {width: 100%; height: 100%; padding: 20px;}
+.layout-main .layout-header {padding: 0;}
+.layout-main .layout-body {padding: 0;}
+.layout-main .layout-form .el-input {width: 200px; margin-right: 10px; vertical-align: middle;}
+.layout-main .layout-form .el-input .el-input__inner {border-color: #dfe6ed;}
+.layout-main .layout-form .el-input .el-input__inner:focus {border-color: #4bb9b9;}
+.layout-main .layout-form .el-dropdown{margin-right: 10px; vertical-align: middle;}
+.layout-main .layout-form .el-dropdown .el-button {margin: 0;}
+.layout-main .layout-form .layout-btn {border-color: transparent; font-size: 0; color: #9bafbe; vertical-align: middle; margin-right: 10px;}
+.layout-main .layout-form .layout-btn:hover {background-color: #E8EDF2; color: #2d373c;}
+.layout-main .layout-form .layout-btn .material-icons {font-size: 14px;}
+.layout-main .layout-form .el-button.is-circle {padding: 8px;}
+.layout-main .layout-form .el-table td, .layout-main .layout-form .el-table th {padding: 5px 0;}
+.layout-main .layout-form .el-table td .cell .layout-btn, .layout-main .layout-form .el-table th .cell .layout-btn {border-radius: 50%; padding: 2px; margin-right: 0;}
+.layout-main .layout-form .el-pagination {position: absolute; right: 20px; bottom: 20px;}
+
+.layout-main .el-pagination .el-select .el-input {width: 100px;}
+.layout-main .el-pagination .el-pagination__editor.el-input {width: 50px;}
+
+.layout-slider .el-dialog {margin: 0 !important; position: absolute; bottom: 0; right: 20px; border-radius: 0; box-shadow: rgba(0, 0, 0, 0.2) 0 2px 10px;}
+.layout-slider .el-dialog .el-dialog__header {padding: 10px 20px; background-color: #3c464b;}
+.layout-slider .el-dialog .el-dialog__header .el-dialog__title {font-size: 14px; color: #fff; line-height: 1;}
+.layout-slider .el-dialog .el-dialog__header .el-dialog__headerbtn {top: 10px;}
+.layout-slider .el-dialog .el-dialog__body {height: 510px; padding: 0;}
+.layout-slider .el-dialog .el-dialog__body .layout-content {padding: 10px 20px;}
+.layout-slider .el-dialog .el-dialog__footer {padding: 10px 20px;}
+.layout-slider .el-dialog .el-dialog__footer .el-button {border-color: transparent; border-radius: 0;}
+.layout-slider .el-dialog .el-dialog__footer .el-button--primary {background-color: #32a0a0;}
+.layout-slider .el-dialog .el-dialog__footer .el-button--default {border-color: #32a0a0; color: #32a0a0;}
+
+.layout-slider .layout-vessel {overflow-y: scroll; margin-right: 4px;}
+.layout-slider .layout-vessel::-webkit-scrollbar {width: 4px; z-index: 10px;}
+.layout-slider .layout-vessel::-webkit-scrollbar-track, 
+.layout-slider .layout-vessel::-webkit-scrollbar-corner {background-color: #fff;}
+.layout-slider .layout-vessel::-webkit-scrollbar-thumb {width: 4px; background-color: #788791; border-radius: 2px;}
+.layout-slider .layout-vessel::-webkit-scrollbar-track-piece {width: 4px; background-color: #dfe6ed;}
+

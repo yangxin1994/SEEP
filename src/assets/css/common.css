@@ -1,0 +1,35 @@
+* {box-sizing: border-box;}
+
+html, body, div, ul, li, p, i, a, span, table {margin: 0; padding: 0;}
+html, body, .ssep-container {width: 100%; height: 100%;}
+
+a {text-decoration: none;}
+
+ul, li {list-style-type: none;}
+
+.pms-wapper {padding: 0; padding-top: 30px; position: relative;}
+
+.middle {display: inline-block; vertical-align: middle;}
+
+.fl {float: left;}
+.fr {float: right;}
+.center-auto {margin: 0 auto;}
+
+.clearfix:before, .clearfix:after {display: table; content: '';}
+.clearfix:after {clear: both;}
+
+.cutoff-x {width: 1px; height: 20px; background-color: #ddd; display: block;}
+.cutoff-y {width: 20px; height: 1px; background-color: #ddd; display: block;}
+
+.form-control {margin-bottom: 20px;}
+.form-control:last-child{margin-bottom: 0;}
+.form-control .el-form-item__label {line-height: 32px;}
+.form-control .el-form-item__label .el-input.el-input--suffix {outline: 0;}
+.form-control .el-form-item__label .el-input.el-input--suffix .el-input__inner {height: 32px; line-height: 32px;}
+.form-control .el-form-item__content .el-input__icon {line-height: 32px;}
+.form-control .el-form-item__content {line-height: 32px;}
+.form-control .el-form-item__content .el-input__inner{height: 32px; line-height: 32px;}
+.form-control .el-form-item__content .el-date-editor.el-input {width: 100%;}
+.form-control .el-form-item__content .el-date-editor.el-input .el-input__inner {padding-left: 15px;}
+.form-control .el-form-item__content .el-date-editor.el-input .el-input__prefix {left: auto; right: 5px;}
+
